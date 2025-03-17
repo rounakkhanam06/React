@@ -1,0 +1,12 @@
+
+    .product-tab {
+        display: flex;         /* Arrange items in a row */
+        gap: 20px;             /* Space between product components */
+        padding: 20px;
+        flex-wrap: wrap;       /* Allow wrapping to next line if there's not enough space */
+      }
+
+      .Product {
+        flex: 1 1 200px;       /* Allow each product to take up equal space with a minimum width of 200px */
+        margin: 10px;
+      }
