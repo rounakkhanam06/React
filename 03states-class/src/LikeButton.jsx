@@ -12,7 +12,7 @@ export default  function LikeButton(){
     return(
         <div>
             <p onClick={toggleLike}>{
-                isLiked?<i className="fa-regular fa-heart"  ></i> :<i class="fa-solid fa-heart" style={styles}></i>
+                isLiked?<i className="fa-regular fa-heart"  ></i> :<i className ="fa-solid fa-heart" style={styles}></i>
                 }
              </p>  
         </div>
