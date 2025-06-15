@@ -1,0 +1,25 @@
+
+.Ticket {
+  margin-bottom: 20px;
+}
+
+.TicketNum {
+  padding: 10px 15px;
+  margin: 5px;
+  background: palevioletred;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  box-shadow: 0 4px 14px rgb(0 0 0 / 0.2);
+  transition: transform 0.2s ease-in-out;
+
+  display: inline-block;
+  text-align: center;
+}
+
+.TicketNum:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgb(0 0 0 / 0.3);
+  background: #ff0062;
+}
